@@ -1,0 +1,48 @@
+div.header {
+    display: flex;
+    background-color: #1f2937;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.body {
+    display: flex;
+}
+
+div.hero {
+    background-color: #1f2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.visual.h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+div.footer {
+    background-color: #1f2937;
+}
+
+div.call-to-action {
+    background-color: #3882F6;
+}
