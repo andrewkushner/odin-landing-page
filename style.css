@@ -1,48 +1,70 @@
 div.header {
     display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
     margin-top: 0px;
-    padding: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 .body {
-    display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
 div.hero {
+    display: flex;
     background-color: #1f2937;
 }
 
 .hero-main {
+    display: flex;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
 }
 
 .hero-secondary {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    justify-content: center;
 }
 
 .hero-logo {
+    display: flex;
     font-size: 24px;
     color: #F9FAF8;
+    align-self: left;
 }
 
 .button {
+    display: flex;
     background-color: #3882F6;
+    justify-content: center;
 }
 
 .visual.h1 {
+    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-}
-
-div.footer {
-    background-color: #1f2937;
+    justify-items: center;
 }
 
 div.call-to-action {
+    display: flex;
     background-color: #3882F6;
+    justify-content: center;
+    margin: 10%;
+    padding: 4%;
+}
+
+div.footer {
+    display: flex;
+    height: 75px;
+    color: white;
+    justify-content: center;;
+    background-color: #1f2937;
 }
