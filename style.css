@@ -1,11 +1,14 @@
 div.header {
+    padding: 20px 0px 20px 0px;
     display: flex;
-    justify-content: space-between;
     background-color: #1f2937;
     padding-inline: 100px;
-    margin-left: 0px;
     font-size: 16px;
     color: white;
+}
+
+.header-link{
+    margin-left: auto;
 }
 
 .body {
@@ -41,10 +44,12 @@ div.hero {
 }
 
 .sign-up {
-    border-radius: 25px;
+    border-radius: 10px;
     display: flex;
     background-color: #3882F6;
     padding-inline: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     align-self: center;
     color: white;
     font-weight: bolder;
@@ -80,8 +85,8 @@ div.call-to-action {
     display: flex;
     background-color: #3882F6;
     justify-content: space-between;
-    margin: 10%;
-    padding: 4%;
+    margin: 100px;
+    padding: 3%;
     color: white;
 }
 
