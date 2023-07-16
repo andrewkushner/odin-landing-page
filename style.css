@@ -2,15 +2,11 @@ div.header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    margin-top: 0px;
-    padding-left: 0px;
+    padding-inline: 100px;
     margin-left: 0px;
-    margin-bottom: 0px;
 }
 
 .body {
-    margin: 0px;
-    padding: 0px;
 }
 
 div.hero {
@@ -23,6 +19,7 @@ div.hero {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    padding-inline: 100px;
 }
 
 .hero-secondary {
@@ -30,6 +27,7 @@ div.hero {
     font-size: 18px;
     color: #E5E7EB;
     justify-content: center;
+    padding-inline: 100px;
 }
 
 .hero-logo {
@@ -37,34 +35,59 @@ div.hero {
     font-size: 24px;
     color: #F9FAF8;
     align-self: left;
+    padding-inline: 100px;
 }
 
-.button {
+.sign-up {
+    border-radius: 25px;
     display: flex;
     background-color: #3882F6;
-    justify-content: center;
+    padding-inline: 5%;
+    align-self: center;
+    color: white;
+    font-weight: bolder;
 }
 
-.visual.h1 {
+.visual {
     display: flex;
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    justify-items: center;
+    justify-content: center;
+    padding-inline: 100px;
+}
+
+.visual-img{
+    border-radius: 25px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;  
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 15%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
 }
 
 div.call-to-action {
     display: flex;
     background-color: #3882F6;
-    justify-content: center;
+    justify-content: space-between;
     margin: 10%;
     padding: 4%;
+    color: white;
 }
 
 div.footer {
     display: flex;
     height: 75px;
     color: white;
-    justify-content: center;;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
 }
