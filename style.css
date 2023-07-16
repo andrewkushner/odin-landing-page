@@ -4,6 +4,8 @@ div.header {
     background-color: #1f2937;
     padding-inline: 100px;
     margin-left: 0px;
+    font-size: 16px;
+    color: white;
 }
 
 .body {
@@ -68,7 +70,7 @@ div.hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-inline: 15%;
+    padding-inline: 5%;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
