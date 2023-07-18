@@ -12,6 +12,7 @@ div.header {
 }
 
 .body {
+    display: flex;
 }
 
 div.hero {
@@ -61,17 +62,20 @@ div.hero {
     color: #1F2937;
     font-weight: bolder;
     justify-content: center;
-    padding-inline: 100px;
 }
 
-.visual-img{
-    border-radius: 25px;
+.visual-img {
     display: flex;
+    flex: 1;
     font-size: 20px;
-    justify-content: space-around;  
+    justify-content: center;
+    height: 250px;
+    gap: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
-.quote{
+.quote {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +92,7 @@ div.call-to-action {
     margin: 100px;
     padding: 3%;
     color: white;
+    border-radius: 10px;
 }
 
 div.footer {
